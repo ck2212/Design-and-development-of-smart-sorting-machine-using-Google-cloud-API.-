@@ -73,8 +73,7 @@ while(1):
         #do nothing
     print(aflag,bflag,cflag)
     if aflag == 1:
-        Serial_Port.write(b'a')
-        
+        Serial_Port.write(b'a')    
     if bflag == 1:
         Serial_Port.write(b'b')
     if cflag == 1:
