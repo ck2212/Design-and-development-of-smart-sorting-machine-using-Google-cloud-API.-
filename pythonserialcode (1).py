@@ -63,6 +63,7 @@ while(1):
                 cflag=1
             if label.description == 'apple':
                 print("bottle detected")
+                cflag=1
 
     elif data_decoded == 'x':
         print("nothing got from arduino")
